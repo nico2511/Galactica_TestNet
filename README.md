@@ -4,6 +4,7 @@
 (for me export and import don't work perfectly, maybe a wrong variable)
 
 Official guide : https://docs.galactica.com/galactica-developer-documentation/validator-guide
+
 Unofficial Guide by crampon-viticole : https://ntemplate.notion.site/Installation-validateur-sur-infomaniak-Debian-24e983c33d2c4c51aad30947a20642da
 
 ### Before use, be sure to add those lines to your bashrc
