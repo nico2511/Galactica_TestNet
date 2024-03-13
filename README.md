@@ -7,7 +7,9 @@ Official guide : https://docs.galactica.com/galactica-developer-documentation/va
 
 Unofficial Guide by crampon-viticole : https://ntemplate.notion.site/Installation-validateur-sur-infomaniak-Debian-24e983c33d2c4c51aad30947a20642da
 
-### Before use, be sure to add those lines to your bashrc
+### Before use, be sure to add those lines to your bashrc. 
+
+Pay attention KEY_NAME AND VALIDATOR_MONIKER, you to replace PUT_YOUR_OWN by YOUR INFO
 
 ```
 nano ~/.bashrc
@@ -23,8 +25,8 @@ export CHAIN_ID=galaandr_41238-41238
 # that's how keys will be kept - in that case in a file and encrypted with a password
 export KEYRING_BACKEND=file
 # Wallet name
-export KEY_NAME=ValidatorWallet
-export VALIDATOR_MONIKER=cmaboite
+export KEY_NAME= PUT_YOUR_OWN
+export VALIDATOR_MONIKER= PUT_YOUR_OWN
 #alias gala='galacticad --home /root/"$MAIN_PATH_HOME" --keyring-backend file --keyring-dir /root/"$MAIN_PATH_HOME"'
 alias gala='galacticad --home $(realpath MAIN_PATH_HOME) --keyring-backend $KEYRING_BACKEND --keyring-dir $(realpath MAIN_PATH_HOME)'
 ```
