@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Définition des couleurs
+# DÃ©finition des couleurs
 ORANGE=$(tput setaf 3)
 BLANC_BG=$(tput setab 7)
 GRAS=$(tput bold)
@@ -14,6 +14,8 @@ echo "
  | | |_ |  / /\ \  | |       / /\ \ | |        | |     | | | |       / /\ \  
  | |__| | / ____ \ | |____  / ____ \| |____    | |    _| |_| |____  / ____ \ 
   \_____|/_/    \_\|______|/_/    \_\\_____|   |_|   |_____|\_____|/_/    \_\
+
+  TOOLBOX :]
                                                                              
                                                                              
  "
@@ -63,7 +65,7 @@ select option in "${options[@]}"; do
         ;;
     5)
         if [[ $option ]]; then
-            read -p "Veuillez entrer le nom du wallet à exporter: " value
+            read -p "Veuillez entrer le nom du wallet Ã  exporter: " value
             echo "Vous avez saisi: $value"
             galacticad --home ~/.galacticad keys export $value > $MAIN_PATH_HOME/exported_key
         else
@@ -72,7 +74,7 @@ select option in "${options[@]}"; do
         ;;
     6)
         if [[ $option ]]; then
-            read -p "Veuillez entrer le nom du wallet à importer: " value
+            read -p "Veuillez entrer le nom du wallet Ã  importer: " value
             echo "Vous avez saisi: $value"
             galacticad --keyring-backend file --home=$MAIN_PATH_HOME keys import $value exported_key
 
