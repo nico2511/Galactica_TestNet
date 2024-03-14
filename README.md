@@ -5,7 +5,9 @@
 
 Official guide : https://docs.galactica.com/galactica-developer-documentation/validator-guide
 
-Unofficial Guide by crampon-viticole : https://ntemplate.notion.site/Installation-validateur-sur-infomaniak-Debian-24e983c33d2c4c51aad30947a20642da
+Unofficial Guide by crampon-viticole : https://ntemplate.notion.site/Galactica-com-84475ec1f70a409b94c9d7acd55cc47d
+
+Video tutorial by crampon-viticole : https://www.youtube.com/watch?v=zgJ8E1JvTWU
 
 ### Before use, be sure to add those lines to your bashrc. 
 
