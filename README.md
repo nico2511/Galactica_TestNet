@@ -1,7 +1,7 @@
-# Galactica_TestNet
+# Little toolbox to use a Galactica validator.
 
-## Little toolbox to use a Galactica validator.
-(for me export and import don't work perfectly, maybe a wrong variable)
+![image](https://github.com/nico2511/Galactica_TestNet/assets/62502164/a6f280de-2d86-49ae-859e-2d4abc50c94a)
+
 
 Official guide : https://docs.galactica.com/galactica-developer-documentation/validator-guide
 
@@ -33,9 +33,10 @@ alias gala='galacticad --home $(realpath MAIN_PATH_HOME) --keyring-backend $KEYR
 
 And save 
 
-### Erase the file if exist > download new one > and execute the file ;)
+### Run this command to execute the script ;)
 ```
-rm -f GnetMenu.sh && wget https://raw.githubusercontent.com/nico2511/Galactica_TestNet/main/GnetMenu.sh && chmod +x GnetMenu.sh && ./GnetMenu.sh
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/nico2511/Galactica_TestNet/main/GnetMenu.sh)"
 ```
 
 # Join us: https://discord.gg/WsrdXPxk
+
