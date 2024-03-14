@@ -32,7 +32,7 @@ echo "Official guide : https://docs.galactica.com/galactica-developer-documentat
 
 echo "Unofficial Guide by crampon-viticole : https://ntemplate.notion.site/Galactica-com-84475ec1f70a409b94c9d7acd55cc47d"
 
-echo " Video tutorial by crampon-viticole : https://www.youtube.com/watch?v=zgJ8E1JvTWU
+echo " Video tutorial by crampon-viticole : https://www.youtube.com/watch?v=zgJ8E1JvTWU"
 
 options=(
     "${ORANGE}${GRAS}CREATE A WALLET${RESET}"
