@@ -92,7 +92,7 @@ select option in "${options[@]}"; do
         ;;
     6)
         if [[ $option ]]; then          
-            galacticad --keyring-backend file --home="$MAIN_PATH_HOME" keys import exported_key
+            galacticad --keyring-backend file --home="$MAIN_PATH_HOME" keys import "$KEY_NAME" exported_key
 
         else
             echo "Option no valid."
